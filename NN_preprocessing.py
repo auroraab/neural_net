@@ -29,6 +29,7 @@ def trunc_seq(string, rr_indices, hk_indices, zeroindex = 0):
             print "failed at index ",i, " of " , string
     return rr, hk
 
+### WAZZUP GITHUB
 
 def aa2bin(seq):
     ''' Takes in a sequence and returns binary matrix form (size = len x 21) '''
