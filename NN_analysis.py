@@ -15,6 +15,7 @@ def predict_using_model(model, train_features):
     return model.predict(train_features, verbose = 1)
 
 def aa_significance(model, batch_norm = 0):
+    
     #layers
     ls = model.get_weights()
     l1_mat = np.array(ls[0])
